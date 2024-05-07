@@ -1,0 +1,269 @@
+.stlCombo1 {
+  width: 75px;
+  height: 18px;
+  background: #fcffea;
+}
+.stlCombo2 {
+  width: 75px;
+  height: 18px;
+  background: #fcffea;
+}
+.oprosLabel {
+  font-weight: normal;
+  font-size: 12px;
+  color: #004400;
+  padding-left: 11px;
+}
+.warn_Label1 {
+  font-weight: bold;
+  font-size: 12px;
+  color: #0b8100;
+}
+.warn_Label11 {
+  font-weight: bold;
+  font-size: 12px;
+  color: #0010e9;
+  padding-left: 50px;
+}
+.stlTableA {
+  width: 100%;
+  border: 1px solid;
+  background-color: #f5ffff;
+  color: #cac8c8;
+  font-size: 12px;
+  font-family: Tahoma, sans-serif;
+  border-spacing: 0px;
+  border-collapse: separate;
+}
+
+.stlTableA th:nth-child(1) {
+  width: 65%;
+  padding: 4px 0px 4px 0px;
+}
+.stlTableA th:nth-child(2) {
+  width: 35%;
+  padding: 4px 0px 4px 0px;
+}
+
+.stlTableB {
+  border: 1px solid;
+  background-color: #f5ffff;
+  color: #f5ffff;
+  font-size: 12px;
+  width: 100%;
+  border-spacing: 0px;
+}
+.stlTableC {
+  width: 100%;
+  border: 1px solid;
+  background-color: #f5ffff;
+  color: #0003ad;
+  font-size: 16px;
+  margin: 0px 0px 0px 0px;
+  padding: 0px 0px 0px 0px;
+  border-spacing: 1px;
+  border-collapse: separate;
+}
+
+.stlTableC th:nth-child(1) {
+  width: 37%;
+}
+.stlTableC th:nth-child(2) {
+  width: 63%;
+  max-width: 330px;
+}
+
+.contentStyle {
+  width: 100%;
+  max-width: 100%;
+  max-height: 400px;
+  font-size: 12px;
+  color: #000000;
+  background: #fcffea;
+  overflow-y: auto;
+  margin: 0px 0px 0px 0px;
+  padding: 2px 0px 0px 0px;
+}
+.contentStyle3 {
+  width: 98%;
+  max-height: 500px;
+  font-size: 12px;
+  border: 0px solid;
+  border-color: #000000;
+  color: #00b109;
+  background: #f6ffc2;
+  overflow-y: auto;
+  margin: 0px 0px 0px 0px;
+  padding: 3px 0px 3px 4px;
+}
+.contentStyle3 div {
+  padding: 1px 0px 1px 0px;
+}
+.inStyleText {
+  width: 98%;
+  font-size: 12px;
+  border: 0px solid;
+  color: #000000;
+  background: #fdfff0;
+  padding-left: 2px;
+}
+textarea:focus {
+  height: 14px;
+  color: #000000;
+  background: #feffc2;
+}
+:focus {
+  outline: none;
+  border: 1px solid #c9c9c9;
+}
+.titleStyle {
+  font-size: 14px;
+  color: #007377;
+  background: #ebece4;
+  margin: 0px 0px 0px 0px;
+  padding: 0px 0px 0px 5px;
+}
+.countStyle {
+  font-size: 12px;
+  font-weight: normal;
+  color: #00b109;
+}
+.srtTxStyle1 {
+  font-size: 14px;
+  font-weight: bold;
+  color: #0026ff;
+  margin-left: 10px;
+}
+.srtTxStyle11 {
+  font-size: 14px;
+  font-weight: bold;
+  color: #0026ff;
+  margin-left: 150px;
+}
+.srtTxStyle2 {
+  font-size: 14px;
+  font-weight: bold;
+  color: #00db12;
+  margin-left: 150px;
+}
+.srtTxStyle3 {
+  font-size: 14px;
+  font-weight: bold;
+  color: #db0000;
+  margin-left: 58px;
+}
+.styleInput {
+  width: 65px;
+  height: 14px;
+  border: 0px solid;
+  font-weight: normal;
+  font-size: 14px;
+  color: #0004df;
+  background: #f2fcff;
+  text-align: left;
+}
+#listTxArea {
+  width: 96%;
+  border: 1px solid #0004df;
+  font-weight: normal;
+  font-size: 14px;
+  color: #0004df;
+  background: #f7fcfd;
+  margin: 0px 0px 4px 16px;
+  padding: 0px 0px 1px 0px;
+}
+.styleTextArea {
+  width: 88%;
+  height: 12px;
+  border: 0px solid;
+  font: normal 14px sans-serif;
+  color: #000000;
+  background: #f7fcfd;
+  text-align: left;
+  overflow: hidden;
+  margin-left: 0px;
+}
+#styleInputTx {
+  width: 96%;
+  max-width: 96%;
+  max-height: 200px;
+  height: 14px;
+  border: 1px solid #0004df;
+  font: normal 14px sans-serif;
+  color: #000000;
+  background: #fffff2;
+  text-align: left;
+  overflow: auto;
+  margin-left: 15px;
+  padding: 2px 0px 6px 3px;
+}
+.butCell {
+  font-weight: bold;
+  font-size: 16px;
+  color: #000ed3;
+  margin-left: 10px;
+}
+.butCell1 {
+  font-weight: normal;
+  font-size: 14px;
+  color: #000ed3;
+  margin-left: 2px;
+}
+p {
+  margin: 3px 0px 3px 4px;
+  padding: 0px 0px 0px 0px;
+}
+li {
+  border: 1px solid #dadada;
+  padding: 1px 0px 1px 2px;
+}
+.instrStyle {
+  font-size: 16px;
+  font-weight: bold;
+  color: #007c0a;
+  padding-left: 10px;
+}
+.clearBufferStyle {
+  font-size: 12px;
+  font-weight: bold;
+  color: #b60000;
+  padding-left: 40px;
+}
+.rxStyle {
+  font-size: 14px;
+  font-weight: normal;
+  color: #c300ff;
+}
+.startStyle {
+  font-size: 14px;
+  font-weight: normal;
+  color: #0400ff;
+}
+.checkStyle {
+  padding: 3px 0px 3px 0px;
+  margin: 0px 3px 0px 10px;
+}
+.checkStyle1 {
+  margin: 0px 3px 0px 150px;
+}
+.txStyle {
+  font-size: 14px;
+  font-weight: bold;
+  color: #b40000;
+  margin-left: 24px;
+}
+.clrBuffStyle {
+  font-size: 14px;
+  font-weight: bold;
+  color: #0016da;
+  margin-left: 127px;
+}
+.typeColor1 {
+  color: #000000;
+}
+.typeColor2 {
+  color: #001aff;
+}
+.typeColor3 {
+  color: #8b0023;
+}

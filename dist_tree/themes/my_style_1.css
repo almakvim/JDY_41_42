@@ -1,0 +1,138 @@
+body {
+  background-color: rgb(255, 255, 255);
+  color: #0f141e;
+  font: normal 11px sans-serif;
+  max-width: 550px;
+  min-width: 550px;
+  margin: 0px 10px;
+  padding: 0px 0px;
+}
+.container {
+  /* width: 75%; */
+  max-width: 550px;
+  margin: 0px 10px;
+  padding: 0px 0px;
+}
+h1 {
+  font-size: 14px;
+  max-width: 550px;
+  margin: 0px 10px;
+  padding: 0 0 4 0px;
+  color: #004fec;
+}
+hr {
+  margin: 0px 0px;
+  padding: 1px 0px;
+  background: #fffefe;
+}
+.title_style {
+  color: #1c1fcf;
+  text-align: center;
+}
+.stlSel1 {
+  border: 1px solid;
+  font-weight: normal;
+  font-size: 12px;
+  color: #bebebe;
+  text-align: left;
+}
+.stlSel2 {
+  border: 1px solid;
+  text-align: left;
+}
+.stlSel3 {
+  border: 1px solid;
+  font-weight: normal;
+  font-size: 12px;
+  color: #eaffff;
+  text-align: left;
+  vertical-align: text-top;
+}
+.stlSel33 {
+  border: 0px solid;
+  font-weight: normal;
+  font-size: 12px;
+  color: #005858;
+  text-align: left;
+  vertical-align: text-top;
+}
+
+.startOprosStyle2 {
+  font-size: 14px;
+  font-weight: bolder;
+  color: #bb6400;
+  text-align: left;
+  padding-left: 5px;
+}
+.startOprosStyle22 {
+  font-size: 14px;
+  font-weight: bolder;
+  color: #00bb10;
+  text-align: right;
+  padding-left: 80px;
+}
+.styleLabel {
+  font-weight: normal;
+  font-size: 14px;
+  color: #008f00;
+  padding-left: 4px;
+}
+button.buttList1 {
+  width: 20px;
+  height: 18px;
+  border: 0px solid;
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 1px;
+  vertical-align: middle;
+  text-align: center;
+  color: #2252bb;
+  border-radius: 5px;
+  float: right;
+  margin-left: 2px;
+  background: #f2fcff linear-gradient(#f8fcff, #90d6ff);
+}
+button.buttList1:hover {
+  color: #000000;
+  background: #f5fff6 linear-gradient(#f0fff0, #00e90c);
+}
+button.buttList2 {
+  width: 20px;
+  height: 18px;
+  border: 0px solid;
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 1px;
+  vertical-align: middle;
+  text-align: center;
+  color: #2252bb;
+  border-radius: 5px;
+  float: right;
+  margin-left: 2px;
+  background: #f2fcff linear-gradient(#f8fcff, #90d6ff);
+}
+button.buttList2:hover {
+  color: #000000;
+  background: #f5fff6 linear-gradient(#fcf5f5, #e90000);
+}
+button.buttList3 {
+  width: 30px;
+  height: 20px;
+  border: 1px solid;
+  line-height: 1px;
+  vertical-align: middle;
+  text-align: center;
+  color: #2252bb;
+  border-radius: 5px;
+  float: left;
+  margin-left: 9px;
+  background: #f2fcff linear-gradient(#f8fcff, #90d6ff);
+}
+button.buttList3:hover {
+  color: #000000;
+  background: #f5fff6 linear-gradient(#fcf5f5, #e90000);
+}
+.iconStyle{
+  width: 16px;
+  height: 16px;
+}
