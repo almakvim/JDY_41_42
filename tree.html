@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>JDY-40, JDY-41 terminal & config tool</title>
+    <link rel="stylesheet" href="./dist_tree/themes/default/style.min.css" />
+    <link rel="stylesheet" href="./dist_tree/themes/my_style_1.css" />
+    <link rel="stylesheet" href="./dist_tree/themes/my_style_2.css" />
+  </head>
+
+  <body>
+    <div class="container">
+      <hr />
+      <!-- <h1>Конфигурация избранных параметров</h1>
+      <hr /> -->
+      <table class="stlTableA">
+        <tr>
+          <th class="stlSel2">
+            <button class="buttList3" onclick="updataComPort()"><img class="iconStyle" src="img/refresh.svg" /></button>
+            <label class="oprosLabel" id="labelComPort">COM port: </label>
+            <select
+              class="stlCombo1"
+              id="selComPort"
+              onchange="selectComPort(this)"
+            ></select>
+            <label class="oprosLabel" id="labelBoud">Boud:</label>
+            <select
+              class="stlCombo2"
+              id="selBoudRate"
+              onchange="selectBoudRate(this)"
+            >
+              <option value="1200">1200</option>
+              <option value="2400">2400</option>
+              <option value="4800">4800</option>
+              <option value="9600">9600</option>
+              <option value="14400">14400</option>
+              <option value="19200">19200</option>
+              <option value="38400">38400</option>
+            </select>
+          </th>
+          <th class="stlSel1">
+            <label class="oprosLabel" >Select modules:</label>
+            <select
+              class="stlCombo1"
+              id="selModules"
+              onchange="selectModules(this)"
+            >
+              <option value="1">JDY-40</option>
+              <option value="2">JDY-41</option>
+            </select>
+          </th>
+        </tr>
+      </table>
+      <!-- ----------------------------------------------------------------- -->
+      <hr />
+      <table class="stlTableB">
+        <tr>
+          <th class="stlSel3">
+            <label class="warn_Label1" id="loadInfo1"></label>
+            <label class="warn_Label11" id="loadInfo11"></label>
+          </th>
+        </tr>
+      </table>
+  <hr />
+      <!-- ----------------------------------------------------------------- -->
+      <table class="stlTableC">
+        <tr>
+          <th class="stlSel3">
+            <p class="titleStyle">
+              <input class="checkStyle" type="checkbox" id="select1" onclick="selectCheck(1)" >Instructions read/set</input>
+              <input class="checkStyle" type="checkbox" id="select2" onclick="selectCheck(2)" >Terminal</input>
+              <input class="checkStyle1" type="checkbox" id="select3" onclick="selectCheck(3)" >String</input>
+              <input class="checkStyle" type="checkbox" id="select4" onclick="selectCheck(4)" >Hex</input>              
+            </p>
+          </th>
+        </tr>
+        <tr>
+          <th class="stlSel3">
+            <div class="contentStyle" contenteditable="false" id="textArea1"></div>
+          </th>
+        </tr>
+        <tr>
+          <th class="stlSel3">
+            <div class="contentStyle3" contenteditable="false" id="textArea2"></div>
+          </th>
+        </tr>
+      </table>
+   
+    <script type="text/javascript" src="./dist_tree/my_script_1.js"></script>
+    <script type="text/javascript" src="./dist_tree/my_script_2.js"></script>
+    <script type="text/javascript" src="./dist_tree/my_script_3.js"></script>
+  </body>
+</html>

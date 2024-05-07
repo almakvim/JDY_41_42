@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      http-equiv="Content-Security-Policy"
+      content="script-src 'self' 'unsafe-inline';"
+    />
+    <title>My Electron App</title>
+
+    <style>
+      body {
+        padding: 50px;
+        font-size: 14px;
+        background-color: #eee;
+        font-family: sans-serif;
+        text-align: center;
+      }
+    </style>
+  </head>
+
+  <body>
+    <h1>Стартовое окно для отладки.</h1>
+    <hr />
+    <button id="btn_tree">записать файл</button>
+    <hr />
+    <!-- <button id="btn">Презаписать файла</button> -->
+
+    <script>
+      const { ipcRenderer } = require('electron')
+      ipcRenderer.send('send:load-tree')
+
+      // ipcRenderer.send('openFile', () => {
+      //   console.log('Event sent.')
+      // })
+
+      // const fs = require('fs')
+      // const path = require('path')
+
+      // document.getElementById('btn').onclick = function () {
+      //   const filePath = path.join(__dirname, 'test', 'text.txt')
+      //   fs.appendFile(filePath, '\nHello World kvim kvim!!!', (err) => {
+      //     if (err) {
+      //       throw err
+      //     }
+      //     console.log('File rewrite!!!')
+      //   })
+      //   ipcRenderer.send('send:rewrite-file')
+      //   //=================================================
+      // }
+
+      // document.getElementById('btn_tree').onclick = function () {
+      //   //alert('Event btn_tree.')
+      //   // const { remote } = require('electron'),
+      //   //   dialog = remote.dialog,
+      //   //   win = remote.getCurrentWindow()
+      //   const { ipcRenderer } = require('electron')
+      //   ipcRenderer.send('open-file-dialog')
+      //   ipcRenderer.on('selected-file', (event, data) => {
+      //     //document.write(data)
+      //     alert('filepath', data)
+      //   })
+      // }
+    </script>
+  </body>
+</html>
