@@ -8,7 +8,7 @@ let win
 // open a window
 openWindow = (type) => {
   win = new BrowserWindow({
-    width: 600, //1500, // 600
+    width: 1500, // 600
     height: 1070,
     //show: false,
     webPreferences: {
@@ -18,7 +18,7 @@ openWindow = (type) => {
     },
   })
   //============================================
-  //win.webContents.openDevTools() // Отладка
+  win.webContents.openDevTools() // Отладка
   //============================================
   if (type === 'tree') {
     //win.loadFile('./preload.js')
